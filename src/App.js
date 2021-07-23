@@ -4,9 +4,10 @@ import React , { useState, useEffect }from "react";
 import { db } from './firebase'; 
 import './App.css';
 
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Dashboard from './components/Dashboard/Dashboard';
 import Preferences from './components/Preferences/Preferences';
+import Koinonia from './components/Koinonia/Koinonia';
 
 
 
@@ -41,16 +42,19 @@ function App() {
 
   return (
     <div className="wrapper">
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
-        <Route path="/dashboard">
+        <Route exact path="/">
           <Dashboard />
         </Route>
-        <Route path="/preferences">
+        <Route exact path="/preferences">
           <Preferences />
         </Route>
+        <Route exact path="/koinonia">
+          <Koinonia />
+        </Route>
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   </div>
   );
 }

@@ -2,43 +2,43 @@ import React from 'react';
 
 export default function servicios() {
   return(
-    <section class="vh" id="sectionservi">     
-        <div class="servicios">
+    <section className="vh" id="sectionservi">     
+        <div className="servicios">
 
-            <div class="titulo">
+            <div className="titulo">
                 <div>
                     <p>SERVICIOS</p>
                 </div>
             </div>
 
-            <div class="serv">
-                <div class="mierc">
+            <div className="serv">
+                <div className="mierc">
                     <p>MIERCOLES</p>
                 </div>
-                <div class="vier">
+                <div className="vier">
                     <p>VIERNES</p>
                 </div>
-                <div class="dom">
+                <div className="dom">
                     <p>DOMINGO</p>
                 </div>
-                <div class="mirch">
+                <div className="mirch">
 
-                    <div class="servidesc">
+                    <div className="servidesc">
                         <p> TABERNÁCULO DE ORACIÓN</p>
                         <p> 7:00 PM</p>
 
                     </div>
 
                 </div>
-                <div class="vierh">
-                    <div class="servidesc">
+                <div className="vierh">
+                    <div className="servidesc">
                         <p> CULTO DE PODER</p>
                         <p> 7:00 PM</p>
 
                     </div>
                 </div>
-                <div class="domh">
-                    <div class="servidesc">
+                <div className="domh">
+                    <div className="servidesc">
                         <p> SERVICIO DOMINICAL</p>
                         <p> 10:00 AM</p>
 
